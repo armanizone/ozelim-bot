@@ -17,7 +17,7 @@ app.listen(port, () => {
 
 const bot = new telegramApi(token, { polling: true });
 
-bot.setWebHook(`ozelim-bot.vercel.app`)
+// bot.setWebHook(`ozelim-bot.vercel.app`)
 
 bot.setMyCommands([
   { command: "/start", description: "Начальное приветствие" },
