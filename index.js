@@ -1,7 +1,7 @@
 import telegramApi from "node-telegram-bot-api";
 import express from 'express'
 
-const token = process.env.TOKEN;
+const token = `7000142747:AAGHJirmuBEW15LcqEvcNZnJPC007RIpOpg`;
 
 const app = express()
 
